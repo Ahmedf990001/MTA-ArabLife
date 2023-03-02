@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #90e0ef;
+    --secondary-color: #00b4d5;
+    --gray-color: #808080;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: system-ui;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header .logo{
+    width: 40px;
+    border-radius: 50%;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 30px;
+}
+
+header ul li a{
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+header ul li a:hover{
+    color: rgb(57, 171, 236);
+}
+
+.discord{
+    display: flex;
+    justify-content: right;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.active{
+    color: #fff;
+    border-radius: 20px;
+    background: rgb(57, 171, 236);
+}
+
+.active:hover{
+    color: #fff;
+    background: none;
+    border: #00b4d5 2px solid;
+}
+
+.active-color{
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 50px;
+    border: #00b4d5 2px solid;
+    transition: 0.2s;
+}
+.active-color:hover{
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    color: #fff;
+    letter-spacing: 15px;
+}
